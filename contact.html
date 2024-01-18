@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | NinjaBytes Technologies</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/contact.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" /><link rel="icon" href="assets/mask.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav>
+      <div class="container container-md">
+        <div class=row>
+          <div class="col logo"><a href=index.html><img alt="Logo NinjaBytes" src=./assets/mask.png height=60
+                id=logo-image></a>
+            <div class=logo-text>NinjaBytes Technologies</div>
+          </div>
+          <div class="col nav-content nav-list">
+            <div class=nav-item><a href=index.html class=nav-link>Home</a></div>
+            <div class=nav-item><a href=about.html class=nav-link>About</a></div>
+            <div class=nav-item><a href=contact.html class=nav-link>Contact</a></div>
+          </div>
+          <div class="col nav-content dropdown">
+            <div class=dropdown><a href=# class="btn btn-secondary" aria-expanded=false data-bs-toggle=dropdown
+                id=dropdownMenuLink role=button></a>
+              <ul aria-labelledby=dropdownMenuLink class=dropdown-menu>
+                <li><a href=index.html class=dropdown-item>Home</a>
+                <li><a href=about.html class=dropdown-item>About</a>
+                <li><a href=contact.html class=dropdown-item>Contact</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>  
+  </nav>
+
+  <!-- Contact Form -->
+  <main>
+    <div id="contact-form">
+      <div class="container">
+        <div class="screen">
+          <div class="screen-header">
+            <div class="screen-header-left">
+              <div class="screen-header-button close"></div>
+              <div class="screen-header-button maximize"></div>
+              <div class="screen-header-button minimize"></div>
+            </div>
+            <div class="screen-header-right">
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+              <div class="screen-header-ellipsis"></div>
+            </div>
+          </div>
+          <div class="screen-body">
+            <div class="screen-body-item left">
+              <div class="app-title">
+                <span>CONTACT</span>
+                <span>US</span>
+              </div>
+              <div class="app-contact">
+                <div class="info-list">
+                  
+                  <div class="info-list-item">
+                    <i class="bi bi-whatsapp"></i>
+                    <p>+91 91194 15183</p>
+                  </div>
+                  <div class="info-list-item">
+                    <i class="bi bi-envelope-open-fill"></i>
+                    <p>contact@ninjabytes.live</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="screen-body-item">
+              <div class="app-form">
+                <div class="app-form-group">
+                  <input  id="name"  class="app-form-control" placeholder="NAME" />
+                </div>
+                <div class="app-form-group">
+                  <input id="email" class="app-form-control" placeholder="EMAIL" />
+                </div>
+                <div class="app-form-group">
+                  <input id="contact-no"  class="app-form-control" placeholder="CONTACT NO" />
+                </div>
+                <div class="app-form-group message">
+                  <input id="message"  class="app-form-control" placeholder="MESSAGE" />
+                </div>
+                <div class="app-form-group buttons">
+                  <button class="app-form-button">CANCEL</button>
+                  <button class="app-form-button" onclick="sendEmail()">SEND</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container container-md">
+      <div class="row d-flex justify-content-start align-items-end">
+        <div class="col-md-6">
+          <div class="logo">
+            <div class="logo-box">
+                <a href="index.html">
+                <img src="assets/mask.png" height="70px" alt="Logo NinjaBytes" id="logo-image" /> </a>
+              </div>
+              <h3>NinjaBytes Technologies</h3>
+         
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="social-media-list">
+          <i class="bi bi-instagram"></i><i class="bi bi-git"></i><i class="bi bi-github"></i>
+          <i class="bi bi-whatsapp"></i>
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-telegram"></i>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer><script src=script.js></script>
+
+</body>
+
+</html>

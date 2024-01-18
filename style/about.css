@@ -1,0 +1,11 @@
+#vision {
+  padding: 20vh 0 10vh 0;
+}
+
+.vision h2 {
+  color: var(--tersier-color);
+}
+
+.vision p {
+  color: var(--primary-color);
+}
